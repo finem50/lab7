@@ -47,26 +47,40 @@ void get_tabs(int start_day){
 
   switch (start_day){
 
-    case 28:
+    case 1:
       for(int i=0; i<start_day; i++)
         cout << "\t";
         break;
 
-    case 29:
-      for(int i=0; i<start_day; i++)
+    case 2:
+      for(int i=1; i<start_day; i++)
       cout << "\t";
       break;
 
-    case 30:
-      for(int i=0; i<start_day; i++)
+    case 3:
+      for(int i=2; i<start_day; i++)
       cout << "\t";
       break;
 
-    case 31:
-      for(int i=0; i<start_day; i++)
+    case 4:
+      for(int i=3; i<start_day; i++)
       cout << "\t";
       break;
 
+    case 5:
+      for(int i=3; i<start_day; i++)
+      cout << "\t";
+      break;
+
+    case 6:
+      for(int i=3; i<start_day; i++)
+      cout << "\t";
+      break;
+
+    case 7:
+      for(int i=3; i<start_day; i++)
+      cout << "\t";
+      break;
   }
 
 }
